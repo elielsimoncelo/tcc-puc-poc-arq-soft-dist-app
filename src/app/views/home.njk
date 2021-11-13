@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+    <meta name="theme-color" content="#7952b3" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SCA - Home</title>
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      href="favicons/apple-touch-icon.png"
+      sizes="180x180"
+    />
+    <link
+      rel="android-chrome"
+      href="favicons/android-chrome-512x512.png"
+      sizes="512x512"
+    />
+    <link
+      rel="android-chrome"
+      href="favicons/android-chrome-192x192.png"
+      sizes="192x192"
+    />
+    <link
+      rel="icon"
+      href="favicons/favicon-32x32.png"
+      sizes="32x32"
+      type="image/png"
+    />
+    <link
+      rel="icon"
+      href="favicons/favicon-16x16.png"
+      sizes="16x16"
+      type="image/png"
+    />
+    <link rel="manifest" href="favicons/manifest.json" />
+    <link rel="icon" href="favicons/favicon.ico" />
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    <link
+      href="bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+    <link
+      href="bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+    <link href="css/home.css" rel="stylesheet" crossorigin="anonymous" />
+  </head>
+  <body class="text-center">
+    <main class="form-home">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img
+              src="/images/logo.png"
+              alt=""
+              width="32"
+              height="32"
+              class="d-inline-block align-text-center"
+            />
+            <span>SGA</span>
+          </a>
+          <!-- Mobile Toggle Button -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarMobileToggle"
+            aria-controls="navbarMobileToggle"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarMobileToggle">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="Submenu-Dropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Services
+                </a>
+                <ul
+                  class="dropdown-menu rounded-3"
+                  aria-labelledby="Submenu-Dropdown"
+                >
+                  <li><a class="dropdown-item" href="#">Services One</a></li>
+                  <li><a class="dropdown-item" href="#">Services Two</a></li>
+                  <li><a class="dropdown-item" href="#">Services Three</a></li>
+                  <li><a class="dropdown-item" href="#">Services Four</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+
+            <!-- Right Side -->
+            <div class="btn-group float-end">
+              <a
+                href="#"
+                class="dropdown-toggle text-decoration-none text-dark"
+                data-bs-toggle="dropdown"
+              >
+                <i class="bi bi-person-circle"></i>
+                <span> Antonio </span>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li>
+                  <a href="#" class="dropdown-item"
+                    ><i class="bi bi-lock-fill"></i> Change Password</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="dropdown-item"
+                    ><i class="bi bi-gear-fill"></i> Admin Setion</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="dropdown-item"
+                    ><i class="bi bi-gear-wide-connected"></i> IMAP Settings</a
+                  >
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a href="/logout" class="dropdown-item"
+                    ><i class="bi bi-box-arrow-right"></i> Sair</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar -->
+    </main>
+    <script
+      src="bootstrap/js/bootstrap.bundle.min.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

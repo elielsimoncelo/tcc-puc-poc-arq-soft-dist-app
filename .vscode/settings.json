@@ -1,0 +1,15 @@
+{
+    "html.suggest.html5": true,
+    "html.autoClosingTags": true,
+    "html.format.wrapLineLength": 500,
+    // "html.format.wrapAttributes": "preserve",
+    "editor.linkedEditing": true,
+    "editor.wordWrap": "off",
+    "editor.wordWrapColumn": 500,
+    "[markdown]":  {
+        "editor.wordWrap": "off",
+    },
+    "files.associations": {
+        "*.njk": "html",
+    },
+}
